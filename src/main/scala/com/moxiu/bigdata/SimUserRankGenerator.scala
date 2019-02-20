@@ -67,11 +67,10 @@ object SimUserRankGenerator {
   hbaseConfiguration.set("hbase.rpc.timeout", prop.getProperty("hbase.rpc.timeout"))
   hbaseConfiguration.set("hbase.client.operation.timeout", prop.getProperty("hbase.client.operation.timeout"))
   hbaseConfiguration.set("hbase.client.scanner.timeout.period", prop.getProperty("hbase.client.scanner.timeout.period"))
-
+  //Hbase连接配置
   val dfs_socket_timeout = prop.getProperty("dfs.socket.timeout")
   val dfs_client_socket_timeout = prop.getProperty("dfs.client.socket-timeout")
   val dfs_datanode_handler_count = prop.getProperty("dfs.datanode.handler.count")
-
   hbaseConfiguration.set("dfs.socket.timeout", dfs_socket_timeout)
   hbaseConfiguration.set("dfs.client.socket-timeout", dfs_client_socket_timeout);
   hbaseConfiguration.set("dfs.datanode.handler.count", dfs_datanode_handler_count);
@@ -194,6 +193,7 @@ object SimUserRankGenerator {
       sqlContext.sql("select theme_id,user_id " +
         "from theme_feed_sys.userbehavior where  pt>='" + startDate + "' and act_type='Download'").rdd //读取Hive数据
         .map(row => (row.getString(0), row.getString(1)))
+        .filter(x => x._1.nonEmpty && x._1.length > 0)
         .aggregateByKey(mutable.Set[String](), daysForUpdatingDownloadHistory * numOfPartitionPerDayForDownloadHistory)((set, user) => set += user, (set1, set2) => set1 ++= set2)
         .mapPartitions { partition => //从Hbase中匹配主题quality，grade，ctime字段之后应用于推荐规则
           val table: Table = connector.getTable(TableName.valueOf(themeInfoTable))
@@ -347,7 +347,8 @@ object SimUserRankGenerator {
         sqlContext.sql("select * from similar_user_result").rdd
           .map(row => (row.getString(0), row.getMap[String, Float](1)))
       }
-        .map(one => (one._1, one._2.toList.sortBy(_._2).reverse.map(_._1)))
+        .map(one => (one._1, one._2.toList.sortBy(_._2).reverse.map(_._1).filter(_.nonEmpty)))
+        .filter(_._1.nonEmpty)
         .repartition(numOfPartitionFOrReadingUserTheme)
         .mapPartitions { partition => //根据用户的相似用户列表，从Hbase读取其他用户历史下载主题推荐给该用户
           val table: Table = connector.getTable(TableName.valueOf(downloadTable))
@@ -421,14 +422,18 @@ object SimUserRankGenerator {
     * 从Hbase中获取用户的主题下载记录
     */
   def getThemeSet(table: Table, rowkey: String, qualifier: String) = {
-    val get = new Get(Bytes.toBytes(rowkey))
-    get.addColumn(Bytes.toBytes("a"), Bytes.toBytes(qualifier))
-    var resSet = mutable.Set[(String, String, String, String)]()
-    if (table.exists(get)) {
-      val hasSet = table.get(get).getValue(Bytes.toBytes("a"), Bytes.toBytes(qualifier))
-      resSet = byteArrayToObj(hasSet).asInstanceOf[mutable.Set[(String, String, String, String)]]
+    if (rowkey != null && rowkey.length > 0) {
+      val get = new Get(Bytes.toBytes(rowkey))
+      get.addColumn(Bytes.toBytes("a"), Bytes.toBytes(qualifier))
+      var resSet = mutable.Set[(String, String, String, String)]()
+      if (table.exists(get)) {
+        val hasSet = table.get(get).getValue(Bytes.toBytes("a"), Bytes.toBytes(qualifier))
+        resSet = byteArrayToObj(hasSet).asInstanceOf[mutable.Set[(String, String, String, String)]]
+      }
+      resSet
+    } else {
+      mutable.Set[(String, String, String, String)]()
     }
-    resSet
   }
 
   /**
@@ -452,21 +457,24 @@ object SimUserRankGenerator {
     * 增量更新本次用户主题下载记录至Hbase
     */
   def mergeHbaseData(currSet: mutable.Set[(String, String, String, String)], table: Table, rowkey: String, family: String, qualifier: String) = {
-    val getHistorySet = new Get(Bytes.toBytes(rowkey))
-    getHistorySet.addColumn(Bytes.toBytes(family), Bytes.toBytes(qualifier))
-    val mergedSet = if (!table.exists(getHistorySet))
-      currSet
-    else {
-      val hasSet = table.get(getHistorySet).getValue(Bytes.toBytes(family), Bytes.toBytes(qualifier))
-      val historySet = byteArrayToObj(hasSet).asInstanceOf[mutable.Set[(String, String, String, String)]]
-      currSet ++= historySet
-      currSet
+    if (rowkey.nonEmpty && rowkey.length > 0) {
+      val getHistorySet = new Get(Bytes.toBytes(rowkey))
+      getHistorySet.addColumn(Bytes.toBytes(family), Bytes.toBytes(qualifier))
+      val mergedSet = if (!table.exists(getHistorySet))
+        currSet
+      else {
+        val hasSet = table.get(getHistorySet).getValue(Bytes.toBytes(family), Bytes.toBytes(qualifier))
+        val historySet = byteArrayToObj(hasSet).asInstanceOf[mutable.Set[(String, String, String, String)]]
+        currSet ++= historySet
+        currSet
+      }
+      println(s"-------------$rowkey------$qualifier----------")
+      println(mergedSet.mkString(","))
+      val putMergedSet = new Put(Bytes.toBytes(rowkey))
+      putMergedSet.addColumn(Bytes.toBytes(family), Bytes.toBytes(qualifier), objToByteArray(mergedSet))
+      table.put(putMergedSet)
     }
-    println(s"-------------$rowkey------$qualifier----------")
-    println(mergedSet.mkString(","))
-    val putMergedSet = new Put(Bytes.toBytes(rowkey))
-    putMergedSet.addColumn(Bytes.toBytes(family), Bytes.toBytes(qualifier), objToByteArray(mergedSet))
-    table.put(putMergedSet)
+
   }
 
   /**

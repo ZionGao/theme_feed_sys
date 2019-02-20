@@ -313,7 +313,7 @@ object ProfileRankGenerator {
           val list = record._3
             .map(theme => (theme._1, theme._2, theme._3, theme._4, record._2.filterKeys(theme._5.contains(_)).values.sum))
             .toList // score,quality,ctime
-            .sortBy(one => (one._5, one._3, one._4))(Ordering.Tuple3(Ordering[Float].reverse, Ordering[String].reverse, Ordering[String]).reverse)
+            .sortBy(one => (one._5, one._3, one._4))(Ordering.Tuple3(Ordering[Float].reverse, Ordering[String].reverse, Ordering[String].reverse))
           val profileList = list.take(numOfThemePerUser).map(_._1)
           val extendList = list.reverse.take(numOfThemePerUser).map(_._1)
           record._1 + "\t" + profileList.mkString("\002") + "\t" + extendList.mkString("\002")
