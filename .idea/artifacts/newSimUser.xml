@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="newSimUser">
+  <artifact type="jar" build-on-make="true" name="newSimUser">
     <output-path>$USER_HOME$/Desktop</output-path>
     <root id="archive" name="newSimUser.jar">
       <element id="module-output" name="theme_feed_sys" />

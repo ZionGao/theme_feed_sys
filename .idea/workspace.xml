@@ -1,7 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1155ae41-0635-423b-abd0-127a15ae9120" name="Default Changelist" comment="" />
+    <list default="true" id="1155ae41-0635-423b-abd0-127a15ae9120" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/ALSRankGenerator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/newSimUser.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/newSimUser.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/s.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/s.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/ProfileRankGenerator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/ProfileRankGenerator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/SimUserRankGenerator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/SimUserRankGenerator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/test.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/HFilePartitioner$$anonfun$getPartition$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/HFilePartitioner$$anonfun$getPartition$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/HFilePartitioner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/HFilePartitioner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/LoadDataService$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/LoadDataService$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$30$$anonfun$apply$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$30$$anonfun$apply$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$30.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$31.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$32.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$32.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$33.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$33.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$34.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$34.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$35$$anonfun$apply$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$35$$anonfun$apply$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$35.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$35.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$36$$anonfun$apply$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$36$$anonfun$apply$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$36.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$36.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$37$$anonfun$apply$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$37$$anonfun$apply$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$37.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$37.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$38.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$38.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$39.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$39.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$40$$anonfun$41.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$40$$anonfun$41.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$40.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$40.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$42$$anonfun$apply$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$42$$anonfun$apply$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$42$$anonfun$apply$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$42$$anonfun$apply$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$42$$anonfun$apply$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$42$$anonfun$apply$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$42.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$42.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$43.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$43.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$44$$anonfun$apply$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$44$$anonfun$apply$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$44.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$44.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$45.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$45.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$46.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$46.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$47.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$47.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$48$$anonfun$49$$anonfun$50.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$48$$anonfun$49$$anonfun$50.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$48$$anonfun$49.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$48$$anonfun$49.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$48.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$48.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$51.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$51.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$52$$anonfun$apply$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$52$$anonfun$apply$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$52.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$52.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$53.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$53.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$54$$anonfun$55.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$54$$anonfun$55.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$54$$anonfun$56.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$54$$anonfun$56.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$54$$anonfun$57$$anonfun$apply$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$54$$anonfun$57$$anonfun$apply$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$54$$anonfun$57.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$54$$anonfun$57.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$54$$anonfun$58.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$54$$anonfun$58.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$54$$anonfun$59$$anonfun$apply$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$54$$anonfun$59$$anonfun$apply$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$54$$anonfun$59.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$54$$anonfun$59.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$54.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$54.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$60$$anonfun$61$$anonfun$62.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$60$$anonfun$61$$anonfun$62.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$60$$anonfun$61$$anonfun$63.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$60$$anonfun$61$$anonfun$63.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$60$$anonfun$61$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$60$$anonfun$61$$anonfun$apply$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$60$$anonfun$61$$anonfun$apply$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$60$$anonfun$61$$anonfun$apply$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$60$$anonfun$61.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$60$$anonfun$61.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$60.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$60.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$64$$anonfun$65$$anonfun$apply$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$64$$anonfun$65$$anonfun$apply$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$64$$anonfun$65.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$64$$anonfun$65.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$64$$anonfun$66.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$64$$anonfun$66.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$64$$anonfun$67.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$64$$anonfun$67.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$64$$anonfun$68.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$64$$anonfun$68.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$64.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$64.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$69.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$69.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$70.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$70.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$71.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$71.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$72.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$72.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$73.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$73.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$74$$anonfun$apply$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$74$$anonfun$apply$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$74.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$74.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$75.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$75.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$76$$anonfun$apply$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$76$$anonfun$apply$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$76.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$76.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$77.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$77.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$78.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$78.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$normalization$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$normalization$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$randomList$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$$anonfun$randomList$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/ProfileRankGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$14$$anonfun$15$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$14$$anonfun$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$20$$anonfun$apply$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$25$$anonfun$26.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$27$$anonfun$apply$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$27.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$28.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$3$$anonfun$apply$2$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$3$$anonfun$apply$2$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$3$$anonfun$apply$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$3$$anonfun$apply$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$3$$anonfun$apply$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$3$$anonfun$apply$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$3$$anonfun$apply$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$3$$anonfun$apply$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$30.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$31.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$32.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$32.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$33.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$33.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$34$$anonfun$apply$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$34.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$34.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$35.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$35.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$36.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$36.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$37.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$37.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$38.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$38.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$39.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$39.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$40$$anonfun$apply$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$40$$anonfun$apply$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$40.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$40.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$41$$anonfun$42$$anonfun$43.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$41$$anonfun$42.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$41.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$41.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$44$$anonfun$45.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$44$$anonfun$46.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$44$$anonfun$47.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$44$$anonfun$48.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$44$$anonfun$49.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$44.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$50.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$51$$anonfun$apply$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$51.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$52.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$52.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$8$$anonfun$9$$anonfun$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$8$$anonfun$9$$anonfun$11$$anonfun$apply$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$8$$anonfun$9$$anonfun$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$8$$anonfun$9$$anonfun$apply$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$8$$anonfun$9$$anonfun$apply$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$8$$anonfun$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$getThemefeature$1$$anonfun$apply$mcVI$sp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$getThemefeature$1$$anonfun$apply$mcVI$sp$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$getThemefeature$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$getThemefeature$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$main$1$$anonfun$apply$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$main$1$$anonfun$apply$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$main$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$main$4$$anonfun$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$main$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$main$5$$anonfun$apply$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$main$5$$anonfun$apply$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$main$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$main$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$randomList$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$$anonfun$randomList$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/SimUserRankGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/test$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/test$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/moxiu/bigdata/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core-site.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hdfs-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hdfs-site.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/hive-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hive-site.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapred-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapred-site.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yarn-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yarn-site.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,66 +201,121 @@
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="4" />
-          <entry key="java" value="31" />
-          <entry key="properties" value="7" />
-          <entry key="scala" value="22" />
-          <entry key="xml" value="10" />
+          <entry key="class" value="5" />
+          <entry key="java" value="32" />
+          <entry key="md" value="1" />
+          <entry key="properties" value="8" />
+          <entry key="scala" value="26" />
+          <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="31" />
-          <entry key="Properties" value="7" />
-          <entry key="Scala" value="22" />
-          <entry key="XML" value="10" />
+          <entry key="CLASS" value="5" />
+          <entry key="JAVA" value="32" />
+          <entry key="Markdown" value="1" />
+          <entry key="Properties" value="8" />
+          <entry key="Scala" value="26" />
+          <entry key="XML" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="class" value="1" />
-          <entry key="properties" value="841" />
-          <entry key="scala" value="42465" />
-          <entry key="xml" value="5" />
+          <entry key="properties" value="842" />
+          <entry key="scala" value="43366" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="Properties" value="841" />
-          <entry key="Scala" value="42465" />
-          <entry key="XML" value="5" />
+          <entry key="Properties" value="842" />
+          <entry key="Scala" value="43366" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/SimUserRankGenerator.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7780">
-              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+            <state relative-caret-position="169">
+              <caret line="388" column="45" selection-start-line="388" selection-start-column="24" selection-end-line="388" selection-end-column="45" />
               <folding>
                 <element signature="e#27#43#0" expanded="true" />
+                <element signature="e#6523#6655#0" />
+                <element signature="e#9556#12149#0" />
+                <element signature="e#12328#13947#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/ALSRankGenerator.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1324">
+              <caret line="29" column="86" lean-forward="true" selection-start-line="29" selection-start-column="86" selection-end-line="29" selection-end-column="86" />
+              <folding>
+                <element signature="e#26#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../maven-repository/org/apache/spark/spark-core_2.10/1.3.0/spark-core_2.10-1.3.0-sources.jar!/org/apache/spark/SparkContext.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="132" column="6" selection-start-line="132" selection-start-column="6" selection-end-line="132" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../maven-repository/org/apache/spark/spark-core_2.10/1.3.0/spark-core_2.10-1.3.0-sources.jar!/org/apache/spark/rdd/RDD.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="832" column="6" selection-start-line="832" selection-start-column="6" selection-end-line="832" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../maven-repository/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0-sources.jar!/org/apache/spark/mllib/recommendation/ALS.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/LoadDataService.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-650">
-              <caret line="105" column="124" selection-start-line="105" selection-start-column="124" selection-end-line="105" selection-end-column="124" />
+            <state relative-caret-position="210">
+              <caret line="145" selection-start-line="145" selection-end-line="158" selection-end-column="5" />
               <folding>
                 <element signature="e#27#53#0" expanded="true" />
               </folding>
@@ -101,45 +324,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../maven-repository/org/apache/hbase/hbase-client/1.0.0-cdh5.4.4/hbase-client-1.0.0-cdh5.4.4-sources.jar!/org/apache/hadoop/hbase/client/HTable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../maven-repository/org/apache/spark/spark-core_2.10/1.3.0/spark-core_2.10-1.3.0-sources.jar!/org/apache/spark/rdd/PairRDDFunctions.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="537" column="6" selection-start-line="537" selection-start-column="6" selection-end-line="537" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/ProfileRankGenerator.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5811">
-              <caret line="270" column="46" selection-start-line="270" selection-start-column="46" selection-end-line="270" selection-end-column="46" />
+            <state relative-caret-position="1920">
+              <caret line="317" column="24" selection-start-line="317" selection-start-column="14" selection-end-line="317" selection-end-column="24" />
               <folding>
                 <element signature="e#27#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../maven-repository/org/apache/hbase/hbase-client/1.0.0-cdh5.4.4/hbase-client-1.0.0-cdh5.4.4-sources.jar!/org/apache/hadoop/hbase/client/Result.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3200">
-              <caret line="866" column="17" selection-start-line="866" selection-start-column="17" selection-end-line="866" selection-end-column="17" />
-              <folding>
-                <element signature="e#4775#4776#0" expanded="true" />
-                <element signature="e#4792#4793#0" expanded="true" />
-                <element signature="e#28750#28751#0" expanded="true" />
-                <element signature="e#28773#28774#0" expanded="true" />
+                <element signature="e#7575#9854#0" />
+                <element signature="e#10042#13557#0" />
               </folding>
             </state>
           </provider>
@@ -158,31 +350,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/test.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-              <folding>
-                <element signature="e#27#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../maven-repository/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0-sources.jar!/org/apache/spark/sql/DataFrame.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="516" column="6" selection-start-line="516" selection-start-column="6" selection-end-line="516" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/s.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1975">
-              <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
+            <state relative-caret-position="283">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -203,18 +374,19 @@
       <list>
         <option value="$PROJECT_DIR$/resources/Config/settings.properties" />
         <option value="$PROJECT_DIR$/resources/hive-site.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/resources/history.properties" />
         <option value="$PROJECT_DIR$/resources/settings.properties" />
         <option value="$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/GetPropertiesFile.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/themeInfoHandler.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/ThemeInfoUpdate.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/HFilePartitioner.scala" />
-        <option value="$PROJECT_DIR$/resources/s.properties" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/SimUserRankGenerator.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/LoadDataService.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/test.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/ProfileRankGenerator.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/ALSRankGenerator.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/SimUserRankGenerator.scala" />
+        <option value="$PROJECT_DIR$/resources/s.properties" />
       </list>
     </option>
   </component>
@@ -255,10 +427,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="710" />
-    <option name="y" value="142" />
-    <option name="width" value="1608" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="727" />
+    <option name="y" value="97" />
+    <option name="width" value="1298" />
     <option name="height" value="1398" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -319,25 +491,25 @@
     <property name="SearchEverywhereHistoryKey" value="scala Sdk&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548745375459" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550652434504" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../IdeaProjects_git/decode-client/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19068736" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\moxiu\theme_feed_sys\resources" />
-      <recent name="D:\moxiu\theme_feed_sys" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.moxiu.bigdata" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\moxiu\theme_feed_sys\resources" />
+      <recent name="D:\moxiu\theme_feed_sys" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -439,7 +611,8 @@
       <workItem from="1547536763293" duration="18015000" />
       <workItem from="1547618876913" duration="42335000" />
       <workItem from="1548125921822" duration="476000" />
-      <workItem from="1548126585743" duration="107308000" />
+      <workItem from="1548126585743" duration="115404000" />
+      <workItem from="1549944581762" duration="42057000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1548745219461</created>
@@ -452,12 +625,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="431152000" />
+    <option name="totallyTimeSpent" value="481305000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="568" y="114" width="1286" height="1118" extended-state="1" />
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.2728013" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.19361277" />
       <window_info id="Structure" order="1" sideWeight="0.50106156" side_tool="true" weight="0.1252495" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -466,17 +640,17 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32997987" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21015228" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23464249" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.11782477" />
+      <window_info anchor="bottom" id="Messages" order="9" visible="true" weight="0.11782477" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="12" visible="true" weight="0.3319797" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32930514" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24821246" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -507,9 +681,9 @@
               <option name="COLUMN_ORDER">
                 <list>
                   <option value="0" />
-                  <option value="1" />
                   <option value="2" />
                   <option value="3" />
+                  <option value="1" />
                 </list>
               </option>
             </State>
@@ -532,55 +706,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/jdk1.7/src.zip!/java/lang/Comparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../maven-repository/org/apache/hbase/hbase-client/1.0.0-cdh5.4.4/hbase-client-1.0.0-cdh5.4.4-sources.jar!/org/apache/hadoop/hbase/client/Row.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../maven-repository/org/apache/hbase/hbase-client/1.0.0-cdh5.4.4/hbase-client-1.0.0-cdh5.4.4-sources.jar!/org/apache/hadoop/hbase/client/Operation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../maven-repository/org/apache/hbase/hbase-client/1.0.0-cdh5.4.4/hbase-client-1.0.0-cdh5.4.4-sources.jar!/org/apache/hadoop/hbase/client/OperationWithAttributes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="32" column="59" lean-forward="true" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../maven-repository/org/apache/hbase/hbase-common/1.0.0-cdh5.4.4/hbase-common-1.0.0-cdh5.4.4-sources.jar!/org/apache/hadoop/hbase/io/HeapSize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../maven-repository/org/apache/hbase/hbase-common/1.0.0-cdh5.4.4/hbase-common-1.0.0-cdh5.4.4-sources.jar!/org/apache/hadoop/hbase/CellScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.7/src.zip!/java/lang/Cloneable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../maven-repository/org/scala-lang/scala-library/2.10.6/scala-library-2.10.6-sources.jar!/scala/annotation/serializable.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -671,14 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1000">
           <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="44" column="17" selection-start-line="40" selection-start-column="3" selection-end-line="44" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -786,19 +903,80 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3200">
           <caret line="866" column="17" selection-start-line="866" selection-start-column="17" selection-end-line="866" selection-end-column="17" />
-          <folding>
-            <element signature="e#4775#4776#0" expanded="true" />
-            <element signature="e#4792#4793#0" expanded="true" />
-            <element signature="e#28750#28751#0" expanded="true" />
-            <element signature="e#28773#28774#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="125">
+            <caret line="5" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../maven-repository/org/apache/hbase/hbase-client/1.0.0-cdh5.4.4/hbase-client-1.0.0-cdh5.4.4-sources.jar!/org/apache/hadoop/hbase/client/HTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../maven-repository/org/apache/spark/spark-core_2.10/1.3.0/spark-core_2.10-1.3.0-sources.jar!/org/apache/spark/rdd/PairRDDFunctions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
+        <state relative-caret-position="12325">
           <caret line="537" column="6" selection-start-line="537" selection-start-column="6" selection-end-line="537" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../maven-repository/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0-sources.jar!/org/apache/spark/sql/DataFrame.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11875">
+          <caret line="516" column="6" selection-start-line="516" selection-start-column="6" selection-end-line="516" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.7/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3844">
+          <caret line="2353" column="20" selection-start-line="2353" selection-start-column="20" selection-end-line="2353" selection-end-column="20" />
+          <folding>
+            <element signature="e#93265#93266#0" expanded="true" />
+            <element signature="e#93303#93304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="e#27#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../maven-repository/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0.jar!/org/apache/spark/mllib/recommendation/Rating.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../maven-repository/org/apache/spark/spark-mllib_2.10/1.3.0/spark-mllib_2.10-1.3.0-sources.jar!/org/apache/spark/mllib/recommendation/ALS.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -812,63 +990,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../maven-repository/org/apache/hbase/hbase-client/1.0.0-cdh5.4.4/hbase-client-1.0.0-cdh5.4.4-sources.jar!/org/apache/hadoop/hbase/client/HTable.java">
+    <entry file="jar://$PROJECT_DIR$/../maven-repository/org/apache/spark/spark-core_2.10/1.3.0/spark-core_2.10-1.3.0-sources.jar!/org/apache/spark/SparkContext.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+        <state relative-caret-position="280">
+          <caret line="132" column="6" selection-start-line="132" selection-start-column="6" selection-end-line="132" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../maven-repository/org/apache/spark/spark-sql_2.10/1.3.0/spark-sql_2.10-1.3.0-sources.jar!/org/apache/spark/sql/DataFrame.scala">
+    <entry file="jar://$PROJECT_DIR$/../maven-repository/org/apache/spark/spark-core_2.10/1.3.0/spark-core_2.10-1.3.0-sources.jar!/org/apache/spark/rdd/RDD.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="516" column="6" selection-start-line="516" selection-start-column="6" selection-end-line="516" selection-end-column="6" />
+        <state relative-caret-position="275">
+          <caret line="832" column="6" selection-start-line="832" selection-start-column="6" selection-end-line="832" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/test.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/ALSRankGenerator.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        <state relative-caret-position="-1324">
+          <caret line="29" column="86" lean-forward="true" selection-start-line="29" selection-start-column="86" selection-end-line="29" selection-end-column="86" />
           <folding>
-            <element signature="e#27#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/LoadDataService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-650">
-          <caret line="105" column="124" selection-start-line="105" selection-start-column="124" selection-end-line="105" selection-end-column="124" />
-          <folding>
-            <element signature="e#27#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/ProfileRankGenerator.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5811">
-          <caret line="270" column="46" selection-start-line="270" selection-start-column="46" selection-end-line="270" selection-end-column="46" />
-          <folding>
-            <element signature="e#27#58#0" expanded="true" />
+            <element signature="e#26#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/s.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1975">
-          <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
+        <state relative-caret-position="283">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/SimUserRankGenerator.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7780">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        <state relative-caret-position="169">
+          <caret line="388" column="45" selection-start-line="388" selection-start-column="24" selection-end-line="388" selection-end-column="45" />
           <folding>
             <element signature="e#27#43#0" expanded="true" />
+            <element signature="e#6523#6655#0" />
+            <element signature="e#9556#12149#0" />
+            <element signature="e#12328#13947#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/ProfileRankGenerator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="317" column="24" selection-start-line="317" selection-start-column="14" selection-end-line="317" selection-end-column="24" />
+          <folding>
+            <element signature="e#27#58#0" expanded="true" />
+            <element signature="e#7575#9854#0" />
+            <element signature="e#10042#13557#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/moxiu/bigdata/LoadDataService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="145" selection-start-line="145" selection-end-line="158" selection-end-column="5" />
+          <folding>
+            <element signature="e#27#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
